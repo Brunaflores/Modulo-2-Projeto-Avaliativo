@@ -1,0 +1,94 @@
+.btnEditar{
+    color: white;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    background-color: #fc7100;
+    border-radius: 10px;
+}
+.btnEditar svg{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    background-color: #fc7100;
+    border-radius: 10px;
+    padding: 3px;
+    box-shadow: 0 0 5px #00000073;
+    transition: 0.5s;
+    
+}
+.btnEditar svg:hover{
+    background-color: #fc7100;
+    width: 25px;
+    height: 25px;
+    transition: 0.5s;
+    box-shadow: 0 0 10px #00000073;
+}
+
+.btnSave{
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    background-color: #fc7100;
+    border-radius: 10px;
+}
+.btnSave svg{
+    width: 20px;
+    color: rgb(255, 255, 255);
+    height: 20px;
+    margin-right: 5px;
+    background-color: #24bb16;
+    border-radius: 10px;
+    padding: 3px;
+    box-shadow: 0 0 5px #00000073;
+    transition: 0.5s;
+    
+}
+.btnSave svg:hover{
+    background-color: #24bb16;
+    width: 25px;
+    height: 25px;
+    transition: 0.5s;
+    box-shadow: 0 0 10px #00000073;
+}
+
+.btnExcluir{
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    background-color: #fc7100;
+    border-radius: 10px;
+}
+.btnExcluir svg{
+    width: 20px;
+    color: rgb(255, 255, 255);
+    height: 20px;
+    margin-right: 5px;
+    background-color: #bb1616;
+    border-radius: 10px;
+    padding: 3px;
+    box-shadow: 0 0 5px #00000073;
+    transition: 0.5s;
+    
+}
+.btnExcluir svg:hover{
+    background-color: #bb1616;
+    width: 25px;
+    height: 25px;
+    transition: 0.5s;
+    box-shadow: 0 0 10px #00000073;
+}

@@ -1,0 +1,59 @@
+.btnAdicioar{
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btnAdicioar svg{
+    transform: rotate(45deg);
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    background-color: #fc7100;
+    border-radius: 100%;
+    padding: 3px;
+    box-shadow: 0 0 5px #00000073;
+    transition: 0.5s;
+}
+
+.btnAdicioar svg:hover{
+    background-color: #fc7100;
+    width: 35px;
+    height: 35px;
+    transition: 0.5s;
+    transform: rotate(40deg);
+}
+
+.form-control:focus {
+    background-color: #fff;
+    border-color: #f35805e0 !important;
+    outline: 0 !important;; 
+    box-shadow: 0 0 0 0.29rem #f3580536 !important;
+  
+  }
+  
+  .form-check-input:checked{
+    background-color: #f35805e0 !important;
+    border-color: #f35805e0 !important;
+    box-shadow: 0 0 0 0.29rem #f3580536 !important;
+  }
+  .form-check-input:checked:hover {
+    background-color: #f35805e0 !important;
+    border-color: #f35805e0 !important;
+    box-shadow: 0 0 0 0.29rem #f3580536 !important;
+  }
+  .form-check-input:not(:checked) {  
+    border-color: #f35805e0 !important;
+    box-shadow: none !important;
+  }
+
+  .btnCadastrar{
+    background-color: #fc7100 !important;
+    border-color: #fc7100 !important;    
+  }

@@ -1,0 +1,52 @@
+[
+    {
+      "id": 50,
+      "nomeReceita": "Bolo de Cenoura",
+      "ingredientes": "Cenoura, açúcar, óleo, farinha de trigo, fermento, ovos",
+      "modoPreparo": "Bata no liquidificador a cenoura, o açúcar, o óleo e os ovos. Em seguida, misture a farinha de trigo e o fermento. Asse em forno pré-aquecido a 180ºC por aproximadamente 40 minutos.",
+      "restricoes": ["gluten"]
+    },
+    {
+      "id": 51,
+      "nomeReceita": "Tapioca",
+      "ingredientes": "Goma de tapioca, recheio a gosto",
+      "modoPreparo": "Peneire a goma de tapioca na frigideira até cobrir o fundo, espere até que a massa fique unida e solte da frigideira, adicione o recheio de sua escolha e feche a tapioca. Sirva quente.",
+      "restricoes": ["lactose"]
+    },
+    {
+      "id": 52,
+      "nomeReceita": "Brigadeiro",
+      "ingredientes": "Leite condensado, chocolate em pó, margarina",
+      "modoPreparo": "Em uma panela, misture o leite condensado, o chocolate em pó e a margarina. Leve ao fogo baixo, mexendo sempre até desgrudar do fundo da panela. Deixe esfriar, faça bolinhas e passe no granulado.",
+      "restricoes": null
+    },
+    {
+      "id": 53,
+      "nomeReceita": "Salada de Frutas",
+      "ingredientes": "Frutas variadas, suco de laranja",
+      "modoPreparo": "Corte as frutas em pedaços pequenos e uniformes. Coloque-as em um recipiente e misture com o suco de laranja. Leve à geladeira por pelo menos 1 hora antes de servir.",
+      "restricoes": null
+    },
+    {
+        "id": 54,
+        "nomeReceita": "Lasanha de Berinjela",
+        "ingredientes": "Berinjela, molho de tomate, queijo mussarela, queijo parmesão, azeite, sal, pimenta",
+        "modoPreparo": "Corte as berinjelas em fatias finas e deixe de molho em água com sal por cerca de 30 minutos. Em seguida, grelhe as fatias em uma frigideira com azeite. Em um refratário, faça camadas alternadas de molho de tomate, berinjela e queijo mussarela. Repita as camadas até terminar os ingredientes. Finalize com queijo parmesão ralado e leve ao forno pré-aquecido a 200ºC por cerca de 30 minutos.",
+        "restricoes": ["gluten"]
+        },
+        {
+        "id": 55,
+        "nomeReceita": "Arroz de Forno",
+        "ingredientes": "Arroz cozido, presunto, queijo mussarela, ervilha, milho, cebola, alho, tomate, azeite, sal, pimenta",
+        "modoPreparo": "Em uma panela, refogue a cebola e o alho no azeite até ficarem macios. Adicione o tomate picado e refogue por mais alguns minutos. Em seguida, misture o arroz cozido, o presunto, o queijo mussarela, a ervilha e o milho. Tempere com sal e pimenta a gosto. Transfira para um refratário e leve ao forno pré-aquecido a 180ºC por cerca de 20 minutos.",
+        "restricoes": null
+        },
+        {
+        "id": 56,
+        "nomeReceita": "Sopa de Legumes",
+        "ingredientes": "Abóbora, cenoura, batata, cebola, alho, caldo de legumes, azeite, sal, pimenta",
+        "modoPreparo": "Descasque e pique os legumes em cubos pequenos. Em uma panela, refogue a cebola e o alho no azeite até ficarem macios. Adicione os legumes e o caldo de legumes. Tempere com sal e pimenta a gosto. Deixe cozinhar em fogo baixo por cerca de 20 minutos, ou até que os legumes estejam macios. Bata a sopa no liquidificador até obter um creme homogêneo. Sirva quente.",
+        "restricoes": ["lactose"]
+        }
+  ]
+  

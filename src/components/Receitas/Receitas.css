@@ -1,0 +1,81 @@
+/* Variáveis CSS */
+:root {
+  --color-background: antiquewhite;
+  --color-accent: #f75d0485;
+  --border-radius: 10px;
+}
+body{
+  background-image: url('/public/fundo.jpg');
+  background-size: 200%;
+  background-position: center;
+ 
+}
+
+/* Estilos do container principal */
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  
+  
+}
+
+/* Estilos do container dos cards */
+.container-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+  height: min-content;
+ 
+}
+
+/* Estilos do container dos filtros */
+.container-filter {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background-color: var(--color-accent);
+  height: 40vh;
+  border-radius: var(--border-radius);
+  
+}
+
+/* Estilos dos elementos dentro do container de filtros */
+.container-filter div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Estilos do container de receitas */
+.container-receitas {
+  flex: 2;
+  height: 80vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 20px;
+  background-color: var(--color-background);
+  border-radius: var(--border-radius);
+}
+
+/* Estilos do botão de cadastro de receita */
+.cadastrar-receita {
+  display: flex;
+  position: absolute;
+  z-index: 10;
+  right: 40px;
+  bottom: 90px;
+}
+
+/* Esconda a barra de rolagem, mas ainda permita que o conteúdo seja rolado */
+.container-receitas::-webkit-scrollbar {
+  display: none;
+}
+
